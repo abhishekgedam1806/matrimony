@@ -27,7 +27,9 @@ $app = require_once __DIR__.'/bootstrap/app.php';
 | Bind Public Path
 |--------------------------------------------------------------------------
 */
-$app->usePublicPath(__DIR__.'/public');
+$app->bind('path.public', function() {
+    return __DIR__.'/public';
+});
 
 /*
 |--------------------------------------------------------------------------
