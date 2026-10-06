@@ -1,0 +1,27 @@
+/bootstrap/compiled.php
+/node_modules
+/public/hot
+/storage/*.key
+/temp
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.DS_Store
+.idea/
+updates/
+/nbproject/private/
+/nbproject
+__MACOSX/
+domains/
+
+# Ignore large archives > 100MB for GitHub limits
+*.tar.gz
+Active Matrimonial CMS.zip
+install.zip
+updates.zip
+ecommerce.zip
+matrimonial_laravel.zip
